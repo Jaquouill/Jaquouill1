@@ -1,0 +1,94 @@
+html,body{
+    margin:0;
+    height: 100%;
+}
+.bg
+{
+    background-image: url("../../../ProjetFinal/img/fsm.jpg");
+    height: 100%;
+
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hauteur100{
+    height: 100%;
+}
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    .bg{
+        background-image: url("../../../ProjetFinal/img/fsm2.jpg");
+        height: 100%;
+
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+@media only screen and (max-width: 1124px)and (min-width: 768px){
+    .bg{
+        background-image: url("../../../ProjetFinal/img/4.jpg");
+        height: 100%;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+.beige{
+    background-color: bisque;
+}
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../../../ProjetFinal/img/fsm4.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padd{
+    padding-top: 2%;
+}
+.paddb{
+    padding-bottom: 2%;
+}
+.bleu{
+    background-color: #5a6268;
+}
+.padd0{
+    padding: 0;
+}
+.bg2
+{
+    background-image: url("../../../ProjetFinal/img/7.jpg");
+    height: 100%;
+
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../../../ProjetFinal/img/7.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paddcoter{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.bgbleu{
+    background-color: darkturquoise;
+}
